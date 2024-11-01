@@ -4,9 +4,9 @@ import { useFetchData } from "../../hooks/useFetchData";
 import { useSelector, useDispatch } from "react-redux";
 import { setPage } from "../../redux/slices/filtersSlice";
 
-import ProductCard from "../product-card";
 import SearchInput from "../search-input";
 import InfoBox from "../info-box";
+import ProductCard from "../product-card";
 import Pagination from "../pagination";
 
 const ProductsSection = () => {
